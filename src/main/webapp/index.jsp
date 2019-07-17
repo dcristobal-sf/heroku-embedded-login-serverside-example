@@ -14,7 +14,7 @@
     <meta name="salesforce-redirect-uri" content="https://<%= System.getenv("SALESFORCE_HEROKUAPP_URL") %>/_callback">
     <meta name="salesforce-mode" content="modal">
     <meta name="salesforce-server-callback" content="true">
-    <meta name="salesforce-namespace" content="">
+    <meta name="salesforce-namespace" content="herokuapp.com">
     <meta name="salesforce-target" content="#sign-in-link">
     <meta name="salesforce-save-access-token" content="true">
     <meta name="salesforce-forgot-password-enabled" content="<%= System.getenv("SALESFORCE_FORGOT_PASSWORD_ENABLED") %>">
